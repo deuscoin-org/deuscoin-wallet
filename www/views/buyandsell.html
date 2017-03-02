@@ -1,0 +1,17 @@
+<ion-view>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+    <ion-nav-title translate>Buy and sell</ion-nav-title>
+  </ion-nav-bar>
+  <ion-content>
+    <div class="list">
+      <div class="item item-divider"></div>
+      <div ng-repeat="service in services">
+      <div class="item item-icon-right" ui-sref="{{service.sref}}">
+          <img ng-src="{{service.logo}}" width="90">
+          <i class="icon bp-arrow-right"></i>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
