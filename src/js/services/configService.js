@@ -56,7 +56,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     release: {
-      url: 'https://api.github.com/repos/hideoussquid/aur-copay/releases/latest'
+      url: 'https://api.github.com/repos/deuscoin-org/deuscoin-wallet/releases/latest'
     },
 
     pushNotifications: {
