@@ -25,11 +25,11 @@ angular.module('copayApp.controllers').controller('preferencesBwsUrlController',
       switch ($scope.bwsurl.value) {
         case 'prod':
         case 'production':
-          bws = 'http://bws.deuscoin.org/bws/api'
+          bws = 'https://bws.deuscoin.org/bws/api'
           break;
         case 'sta':
         case 'staging':
-          bws = 'http://bws.deuscoin.org/bws/api'
+          bws = 'https://bws.deuscoin.org/bws/api'
           break;
         case 'loc':
         case 'local':
