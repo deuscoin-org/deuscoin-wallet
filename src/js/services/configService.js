@@ -16,12 +16,12 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     download: {
-      url: 'https://play.google.com/store/apps/details?id=cc.deuscoin.wallet',
+      url: 'http://deuscoin.org',
     },
 
     rateApp: {
       ios: '',
-      android: 'https://play.google.com/store/apps/details?id=cc.deuscoin.wallet',
+      android: 'https://play.google.com/store/apps/details?id=org.deuscoin.wallet',
       wp: ''
     },
 
